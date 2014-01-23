@@ -9,32 +9,31 @@ var load = function() {
 
 	var updateName = function() {
 		var x = $('#name').val();
-		$('name-info').text(x);
+		$('#name-info').text(x);
 	};
 	
 	var updateBio = function() {
 		var x = $('#bio').val();
-		$('bio-info').text(x);
+		$('#bio-info').text(x);
 	};	
 
 	var updateBooks = function() {
 		var x = $('#books').val();
-		$('books-info').text(x);
+		$('#books-info').text(x);
 	};
 
 	var updateLibraries = function() {
-		var x = $('libraries').val();
-		$('libraries-info').text(x);
+		var x = $('#libraries').val();
+		$('#libraries-info').text(x);
 	};
 
 
-
-
-
-
 	$('#submit-changes').click(function(event) {
-		event.preventDefault();
-
+		updateName();
+		updateBio();
+		updateBooks();
+		updateLibraries();
+		event.preventDefault();	
 	});
 
 
