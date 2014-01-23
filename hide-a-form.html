@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang='en'>
 	<head>
-		<link rel="shortcut icon" href="images/AVENGERS.png" type="image/x-icon">
+		<link rel="shortcut icon" href="AVENGERS.png" type="image/x-icon">
 		<link type="text/css" rel="stylesheet" href="http://necolas.github.com/normalize.css/2.1.3/normalize.css"/>
 		<link type="text/css" rel="stylesheet" href="main.css"/>
 		<meta charset='UTF-8'>
@@ -15,47 +15,51 @@
 	<body>
 
 
-
-
-
 	<div class="container">
 
 		<div class="input-form">
 
 			<form>
-				Name: <input type="text" name="name"><br>
-				Bio: <input type="text" name="Bio"><br>
-				Favorite Books: <input type="text" name="Fav Books"><br>
-				Favorite JS Libraries: <input type="text" name="Fav JS Libraries"><br>
+				<input type="text" name="name" placeholder="Name">
+				<input type="text" name="Bio" placeholder="Bio">
+				<input type="text" name="Fav Books"  placeholder="Favorite Books">
+				<input type="text" name="Fav JS Libraries" placeholder="Favorite JS Libraries">
+				<input type="submit" value="Submit">
 			</form>
 
-
 		</div>
 
-		<div class="profile">
 
-			<div class="profile-info">
-				<h2>Name</h2>
-				<p class="name-info"></p>
-			</div>
+		
+		<div class="main-content">
 
-			<div class="profile-info">
-				<h2>Bio</h2>
-				<p class="bio-info"></p>
-			</div>
-			
-			<div class="profile-info">
-				<h2>Favorite Books</h2>
-				<p class="book-info"></p>
-			</div>
-			
-			<div class="profile-info">
-				<h2>Favorite JS Libraries</h2>
-				<p class="libraries-info"></p>
+			<button type="button" id="editor">Edit Profile</button>
+
+		
+			<div class="profile">
+				<div class="profile-info">
+					<h2>Name</h2>
+					<p class="name-info">Marty McFly</p>
+				</div>
+
+				<div class="profile-info">
+					<h2>Bio</h2>
+					<p class="bio-info">I was born in the 80s but an unfortunate Delorean time machine accident got me into 1955.  I'm an awesome guitar player.</p>
+				</div>
+				
+				<div class="profile-info">
+					<h2>Favorite Books</h2>
+					<p class="book-info">Time Travel and You, Harvesting Plutonium, Delorean Repair Made Easy</p>
+				</div>
+				
+				<div class="profile-info">
+					<h2>Favorite JS Libraries</h2>
+					<p class="libraries-info">We don't have computers in 1955.</p>
+				</div>
+
 			</div>
 
 		</div>
-
 
 
 
